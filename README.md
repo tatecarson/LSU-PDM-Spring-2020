@@ -1,6 +1,6 @@
 # Programming Digital Media
 
-Examples for Programming Digital Media class at Louisiana State University, Spring 2019
+Examples for Programming Digital Media class at Louisiana State University, Spring 2020
 
 - email: <tcarso2@lsu.edu>   
 - Office hours: 1pm to 3pm Monday in the Digital Media Center (2006)
