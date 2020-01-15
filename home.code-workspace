@@ -1,0 +1,16 @@
+{
+	"folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "_Hardware examples/p5.serialport-master"
+    }
+  ],
+	"settings": {
+		"editor.fontSize": 12,
+		"cSpell.words": [
+			"autostart"
+		]
+	}
+}
