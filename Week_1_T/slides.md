@@ -23,8 +23,10 @@ theme: solarized
 
 # Assignment 1: Build a sampler 
 
-- [assignment](https://moodle3.lsu.edu/mod/assign/view.php?id=988727)
-- [project starter](https://github.com/tatecarson/LSU-PDM-Spring-2019/tree/master/Week_1_T/0_p5-tone-starter)
+- [assignment](https://moodle3.lsu.edu/mod/assign/view.php?id=1362966)
+- Project starter
+  - [view](/starter-template/)
+  - [download](/starter-template.zip)
   
 
 ---
