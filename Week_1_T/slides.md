@@ -61,14 +61,14 @@ var player = new Tone.Player().toMaster();
 # Find your own sounds
 * [freesound](http://www.freesound.org)
 * [Macaulay Library](https://www.macaulaylibrary.org/#_ga=2.227816093.1451042078.1519181247-355812784.1519181247)
-* [Landr](https://www.landr.com/en/)
 
 ---
 
 # Filetypes
-* mp3 is best
+* mp3 is best for small file size 
 * other options
   * [Supported media formats](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats)
+  * check at [Can I Use](https://caniuse.com/)
 * convert wavs with:
     * [Audacity](https://www.audacityteam.org/)
     * [Online audio converter](https://online-audio-converter.com/) - in the browser 
@@ -142,7 +142,8 @@ Alternatives to **keyIsDown**?
 
 ---
 
-* With p5.dom (make sure it's imported)
+* With p5.dom
+  * with the newest version of p5.js (0.10.2) the dom library is imported automatically. If you're using an older version make sure the p5.dom is imported. 
   * **createButton()**. 
 * Position it 
   * **button1.position(x, y)** 
@@ -220,4 +221,4 @@ text(str,x,y);
 
 ---
 
-### Start on your assignments now. We'll add effects to them on Thursday. 
+### Start on your assignments now. We'll add effects to them on Tuesday. 

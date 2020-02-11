@@ -1,4 +1,4 @@
-# Class Notes
+<!-- # Class Notes
 
 ## Misc
 
@@ -74,4 +74,4 @@ Filter types can include:
 
 ### Envelopes 
 
-
+ -->
