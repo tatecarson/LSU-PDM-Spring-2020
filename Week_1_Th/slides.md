@@ -12,10 +12,10 @@ theme: solarized
 ## Connections
 
 - [more info](https://github.com/Tonejs/Tone.js/wiki/Connections)
-- **.connect()** connects two nodes together, usually something that makes sound to something that effects
-  - ex: sampler->distortion
-- Connections are direction, order matters 
-  - ex: **source.connect(effect)** can be thought of as source ---> effect
+- **.connect()** connects two nodes together, usually something that makes sound to something that manipulates it
+  - ex: sampler -> distortion
+- Connections are directional, order matters 
+  - ex: **source.connect(effect)** can be thought of as source -> effect
 
 ---
 
@@ -36,13 +36,14 @@ var multiplayer = new Tone.Players({...}).connect(effect);
 ```
 ---
 
-## Changing reverb parameters for signals
+## Changing effects parameters for signals
 
 example:
 [FeedBack Delay Docs](https://tonejs.github.io/docs/r13/FeedbackDelay)
 
-- signals have the special symbol by them in the docs
-- allows audio rate control over attribute
+- signals have the (~) by them in the docs
+- allows audio rate (44,100 Hz)control over attribute
+  - [See for more info about sampling rates](http://digitalsoundandmusic.com/5-1-2-digitization/)
 
 see [signal wiki](https://github.com/Tonejs/Tone.js/wiki/Signals#setting-values)
 
@@ -69,8 +70,11 @@ see [signal wiki](https://github.com/Tonejs/Tone.js/wiki/Signals#setting-values)
 ## Reverb
 
 - the persistance of a sound that continues after the original sound has ceased
-- many echos bouncing off the walls, think the sound of a cathedral or cave
+- many echos bouncing off the walls, think the sound clapping in a cathedral or cave
 - all spaces produce reverb
+- Tone's two types: 
+  - [`JCReverb`](https://tonejs.github.io/docs/13.8.25/JCReverb) - a simple Schroeder Reverberator tuned by John Chowning in 1970 - cheap but artificial sounding
+  - [`Reverb`](https://tonejs.github.io/docs/13.8.25/Reverb) - convolution, more expensive than the JCReverb but more natural
 
 ---
 

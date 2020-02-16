@@ -16,7 +16,7 @@ Examples for Programming Digital Media class at Louisiana State University, Spri
 <!-- - **2-28-19** - Sound Effects and Sequencers - [slides](https://lsu-pdm-2019.netlify.com/week_3_th/_static/#/) -->
 <!-- - **3-6-19** - Rhythm / Scales / Tuning / Distributed smartphone music - [slides](https://lsu-pdm-2019.netlify.com/week_4_t/_static/#/) -->
 ## Resources
-[slides](https://lsu-pdm-2019.netlify.com/readme.html)
+- [starter template](starter-template.zip) - shows a basic example project with Tone.js and p5 with a button and slider
 
 ### Tone.js
 
