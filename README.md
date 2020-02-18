@@ -16,7 +16,12 @@ Examples for Programming Digital Media class at Louisiana State University, Spri
 <!-- - **2-28-19** - Sound Effects and Sequencers - [slides](https://lsu-pdm-2019.netlify.com/week_3_th/_static/#/) -->
 <!-- - **3-6-19** - Rhythm / Scales / Tuning / Distributed smartphone music - [slides](https://lsu-pdm-2019.netlify.com/week_4_t/_static/#/) -->
 ## Resources
-- [starter template](https://lsu-pdm-2020.netlify.com/starter-template.zip) - shows a basic example project with Tone.js and p5 with a button and slider
+
+- Starter templates
+  - [download](https://github.com/tatecarson/tonejs-p5j-starter-template) - shows a basic example project with Tone.js and p5 with a button and slider
+    - click the green button to download
+  - [p5 web editor](https://editor.p5js.org/tcarso2/sketches/MMvCDJ0C) - if you still can't run a local server. After you're finished click on file -> download to get the zip to turn in your project. 
+    - warning: there may be a file size limit, try to use smaller and shorter samples 
 
 ### Tone.js
 
