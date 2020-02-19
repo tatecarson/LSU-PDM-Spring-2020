@@ -3,6 +3,43 @@ title: synth making from scratch
 theme: sky
 ---
 
+
+# Assignment 2
+
+[Basic Sound Synthesis](https://moodle3.lsu.edu/mod/assign/view.php?id=988729)
+
+---
+
+## Oscillators
+
+- Building blocks of synthesis 
+- make sound from scratch
+- a signal vibrates at a given frequency producing a sound
+- types: sine, square, saw, triangle
+- each with their own timbre or tone color
+
+---
+
+<!-- oscillator diagrams -->
+<img src="osc.png" width="75%">
+
+---
+
+<iframe src="https://tonejs.github.io/examples/oscillator.html" style="width: 100%" height="400"></iframe>
+
+---
+
+## Simple example in Tone
+
+<iframe height="309" style="width: 100%;" scrolling="no" title="PDM Sound: Synthesizer Intro." src="//codepen.io/lsuddem/embed/jKJqYv/?height=309&theme-id=35490&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/lsuddem/pen/jKJqYv/'>PDM Sound: Synthesizer Intro.</a> by LSU DDEM
+  (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+[starter](https://codepen.io/lsuddem/pen/RvYabz?editors=0010)
+
+---
+
 # Making a Synth from scratch
 
 ---
@@ -36,6 +73,9 @@ The most basic unit of synthesis in tone is [Tone.Oscillator](https://tonejs.git
 ## Enevelopes 
 
 - [Tone example](https://tonejs.github.io/examples/envelope.html)
+
+<!-- TODO: add in image of ADSR here!! -->
+<img src="adsr.png" width="70%">
 
 ---
 

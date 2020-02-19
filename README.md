@@ -23,6 +23,20 @@ Examples for Programming Digital Media class at Louisiana State University, Spri
   - [p5 web editor](https://editor.p5js.org/tcarso2/sketches/MMvCDJ0C) - if you still can't run a local server. After you're finished click on file -> download to get the zip to turn in your project. 
     - warning: there may be a file size limit, try to use smaller and shorter samples 
 
+### Context not starting? 
+
+Try: 
+```
+function startContext() {
+  console.log("Tone is: ", Tone.context.state)
+  document.body.addEventListener("click", () => {
+    Tone.context.resume();
+    console.log("Tone is: ", Tone.context.state);
+  });
+}
+```
+Then call that function in the setup. 
+
 ### Tone.js
 
 #### Basics
