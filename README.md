@@ -10,7 +10,7 @@ Examples for Programming Digital Media class at Louisiana State University, Spri
 ## Lectures
 - **2-13-20** - Web audio basics and sound file players - [slides](https://lsu-pdm-2020.netlify.com/week_1_t/_site/#/), [textbook](https://pdm.lsupathways.org/3_audio/1_sampler/1_lesson_1/)
 - **2-18-20** - Adding effects and intro to synthesis - [slides](https://lsu-pdm-2019.netlify.com/week_1_th/_static/#/), [textbook](https://pdm.lsupathways.org/3_audio/1_sampler/2_lesson_2/)
-<!-- - **2-19-19** - Making synthesizers from scratch - [slides](https://lsu-pdm-2019.netlify.com/week_2_t/_static/#/) -->
+- **2-20-20** - Making synthesizers from scratch - [slides](https://lsu-pdm-2019.netlify.com/week_2_t/_static/#/)
 <!-- - **2-21-19** - Scheduling signals and LFOs - [slides](https://lsu-pdm-2019.netlify.com/week_2_th/_static/#/) -->
 <!-- - **2-25-19** - Instruments and Sequencers - [slides](https://lsu-pdm-2019.netlify.com/week_3_t/_static/#/), [textbook](https://pdm.lsupathways.org/3_audio/2_synthsandmusic/2_lesson_2/) -->
 <!-- - **2-28-19** - Sound Effects and Sequencers - [slides](https://lsu-pdm-2019.netlify.com/week_3_th/_static/#/) -->
