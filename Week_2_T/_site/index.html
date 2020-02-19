@@ -17,6 +17,33 @@
         <div class="reveal">
             <div class="slides"><section  data-markdown><script type="text/template">
 
+
+# Assignment 2
+
+[Basic Sound Synthesis](https://moodle3.lsu.edu/mod/assign/view.php?id=988729)
+</script></section><section  data-markdown><script type="text/template">
+## Oscillators
+
+- Building blocks of synthesis 
+- make sound from scratch
+- a signal vibrates at a given frequency producing a sound
+- types: sine, square, saw, triangle
+- each with their own timbre or tone color
+</script></section><section  data-markdown><script type="text/template">
+<!-- oscillator diagrams -->
+<img src="osc.png" width="75%">
+</script></section><section  data-markdown><script type="text/template">
+<iframe src="https://tonejs.github.io/examples/oscillator.html" style="width: 100%" height="400"></iframe>
+</script></section><section  data-markdown><script type="text/template">
+## Simple example in Tone
+
+<iframe height="309" style="width: 100%;" scrolling="no" title="PDM Sound: Synthesizer Intro." src="//codepen.io/lsuddem/embed/jKJqYv/?height=309&theme-id=35490&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/lsuddem/pen/jKJqYv/'>PDM Sound: Synthesizer Intro.</a> by LSU DDEM
+  (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+[starter](https://codepen.io/lsuddem/pen/RvYabz?editors=0010)
+</script></section><section  data-markdown><script type="text/template">
 # Making a Synth from scratch
 </script></section><section  data-markdown><script type="text/template">
 ### Building blocks: Sources and Signals
@@ -42,6 +69,9 @@ The most basic unit of synthesis in tone is [Tone.Oscillator](https://tonejs.git
 ## Enevelopes 
 
 - [Tone example](https://tonejs.github.io/examples/envelope.html)
+
+<!-- TODO: add in image of ADSR here!! -->
+<img src="adsr.png" width="70%">
 </script></section><section  data-markdown><script type="text/template">
 ## ADSR
 
@@ -54,6 +84,10 @@ The most basic unit of synthesis in tone is [Tone.Oscillator](https://tonejs.git
 ## Filters
 
 - A [filter](https://tonejs.github.io/docs/r11/Filter) modifies a source sound by either amplifying or attenuating certain frequency ranges of that sound.
+</script></section><section  data-markdown><script type="text/template">
+<!-- source: computer music tutorial pg 188 - Roads -->
+<img src="fourCommonFilters.png" width="65%">
+
 </script></section><section  data-markdown><script type="text/template">
 ### Filter types can include:
 * lowpass
@@ -71,7 +105,8 @@ The most basic unit of synthesis in tone is [Tone.Oscillator](https://tonejs.git
 - Each has a different sound, covers a different frequency range,  and is used for different purposes. 
 - There are other colors of [noise](https://en.wikipedia.org/wiki/Colors_of_noise) that tone doesn't implement that are good to know about.  
 </script></section><section  data-markdown><script type="text/template">
-## Most often used types
+<img src="colors-of-noise.webp">
+</script></section><section  data-markdown><script type="text/template">## Most often used types
 
 * white
 * brown

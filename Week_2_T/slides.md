@@ -95,6 +95,12 @@ The most basic unit of synthesis in tone is [Tone.Oscillator](https://tonejs.git
 
 ---
 
+<!-- source: computer music tutorial pg 188 - Roads -->
+<img src="fourCommonFilters.png" width="65%">
+
+
+---
+
 ### Filter types can include:
 * lowpass
 * highpass
@@ -115,6 +121,9 @@ The most basic unit of synthesis in tone is [Tone.Oscillator](https://tonejs.git
 
 ---
 
+<img src="colors-of-noise.webp">
+
+---
 ## Most often used types
 
 * white
