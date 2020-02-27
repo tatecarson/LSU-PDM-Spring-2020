@@ -24,10 +24,10 @@
 ## Connections
 
 - [more info](https://github.com/Tonejs/Tone.js/wiki/Connections)
-- **.connect()** connects two nodes together, usually something that makes sound to something that effects
-  - ex: sampler->distortion
-- Connections are direction, order matters 
-  - ex: **source.connect(effect)** can be thought of as source ---> effect
+- **.connect()** connects two nodes together, usually something that makes sound to something that manipulates it
+  - ex: sampler -> distortion
+- Connections are directional, order matters 
+  - ex: **source.connect(effect)** can be thought of as source -> effect
 </script></section><section  data-markdown><script type="text/template">
 ## Connect effect
 
@@ -44,13 +44,14 @@ var effect = new Tone.FeedbackDelay().toMaster();
 ```js
 var multiplayer = new Tone.Players({...}).connect(effect);
 ```</script></section><section  data-markdown><script type="text/template">
-## Changing reverb parameters for signals
+## Changing effects parameters for signals
 
 example:
 [FeedBack Delay Docs](https://tonejs.github.io/docs/r13/FeedbackDelay)
 
-- signals have the special symbol by them in the docs
-- allows audio rate control over attribute
+- signals have the (~) by them in the docs
+- allows audio rate (44,100 Hz)control over attribute
+  - [See for more info about sampling rates](http://digitalsoundandmusic.com/5-1-2-digitization/)
 
 see [signal wiki](https://github.com/Tonejs/Tone.js/wiki/Signals#setting-values)
 </script></section><section  data-markdown><script type="text/template">
@@ -71,8 +72,11 @@ see [signal wiki](https://github.com/Tonejs/Tone.js/wiki/Signals#setting-values)
 ## Reverb
 
 - the persistance of a sound that continues after the original sound has ceased
-- many echos bouncing off the walls, think the sound of a cathedral or cave
+- many echos bouncing off the walls, think the sound clapping in a cathedral or cave
 - all spaces produce reverb
+- Tone's two types: 
+  - [`JCReverb`](https://tonejs.github.io/docs/13.8.25/JCReverb) - a simple Schroeder Reverberator tuned by John Chowning in 1970 - cheap but artificial sounding
+  - [`Reverb`](https://tonejs.github.io/docs/13.8.25/Reverb) - convolution, more expensive than the JCReverb but more natural
 </script></section><section  data-markdown><script type="text/template">
 <iframe height="409" style="width: 100%;" scrolling="no" title="PDM Sound: Reverb Example" src="//codepen.io/lsuddem/embed/oyaRoE/?height=409&theme-id=35490&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/lsuddem/pen/oyaRoE/'>PDM Sound: Reverb Example</a> by LSU DDEM
@@ -91,29 +95,7 @@ see [signal wiki](https://github.com/Tonejs/Tone.js/wiki/Signals#setting-values)
 ## More examples
 
 [here](https://pdm.lsupathways.org/3_audio/1_sampler/2_lesson_2/)
-</script></section><section  data-markdown><script type="text/template">
-# Assignment 2
-
-[Basic Sound Synthesis](https://moodle3.lsu.edu/mod/assign/view.php?id=988729)
-</script></section><section  data-markdown><script type="text/template">
-## Oscillators
-
-- Building blocks of synthesis 
-- make sound from scratch
-- a signal vibrates at a given frequency producing a sound
-- types: sine, square, saw, triangle
-- each with their own timbre or tone color
-</script></section><section  data-markdown><script type="text/template">
-<iframe src="https://tonejs.github.io/examples/oscillator.html" style="width: 100%" height="400"></iframe>
-</script></section><section  data-markdown><script type="text/template">
-## Simple example in Tone
-
-<iframe height="309" style="width: 100%;" scrolling="no" title="PDM Sound: Synthesizer Intro." src="//codepen.io/lsuddem/embed/jKJqYv/?height=309&theme-id=35490&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/lsuddem/pen/jKJqYv/'>PDM Sound: Synthesizer Intro.</a> by LSU DDEM
-  (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-[starter](https://codepen.io/lsuddem/pen/RvYabz?editors=0010)</script></section></div>
+</script></section><section  data-markdown><script type="text/template"></script></section></div>
         </div>
 
         <script src="./lib/js/head.min.js"></script>
