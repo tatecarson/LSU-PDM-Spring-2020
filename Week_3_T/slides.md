@@ -3,20 +3,6 @@ title: "Synthesizer tour"
 theme: sky 
 ---
 
-# Audio Project 3
-[link](https://moodle3.lsu.edu/mod/assign/view.php?id=988731)
-
----
-
-## Examples from last year
-
-* [project 1](project-examples/project-1)
-* [project 2](project-examples/project-2)
-* [project 3](project-examples/project-3)
-* [project 4](project-examples/project-4)
-
----
-
 ## Getting presets
 
 [presets](https://www.guitarland.com/MusicTheoryWithToneJS/Presets-gh-pages/)

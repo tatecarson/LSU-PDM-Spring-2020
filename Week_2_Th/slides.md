@@ -3,6 +3,20 @@ title: "Scheduling Signals"
 theme: sky 
 ---
 
+# Audio Project 3
+[link](https://moodle3.lsu.edu/mod/assign/view.php?id=988731)
+
+---
+
+## Examples from last year
+
+* [project 1](project-examples/project-1)
+* [project 2](project-examples/project-2)
+* [project 3](project-examples/project-3)
+* [project 4](project-examples/project-4)
+
+--- 
+
 ## LFO (Low Frequency Oscillator)
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="PDM Sound - LFO" src="//codepen.io/lsuddem/embed/JxxbMy/?height=300&theme-id=35490&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
