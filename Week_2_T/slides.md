@@ -130,3 +130,35 @@ The most basic unit of synthesis in tone is [Tone.Oscillator](https://tonejs.git
 * brown
 * pink
   
+
+---
+## click left arrow for noise
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="PDM Sound - Tone.Noise remake" src="//codepen.io/lsuddem/embed/VdxRxz/?height=300&theme-id=35490&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/lsuddem/pen/VdxRxz/'>PDM Sound - Tone.Noise remake</a> by LSU DDEM
+  (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+[starter](https://codepen.io/lsuddem/pen/ZwwBPL?editors=0010)
+
+---
+
+## Envelopes example
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="PDM Sound - Envelopes" src="//codepen.io/lsuddem/embed/OddbRB/?height=300&theme-id=35490&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/lsuddem/pen/OddbRB/'>PDM Sound - Envelopes</a> by LSU DDEM
+  (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+[starter](https://codepen.io/lsuddem/pen/bzzBgZ)
+
+---
+
+## More envelopes
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="PDM Sound - More Envelopes " src="//codepen.io/lsuddem/embed/rPPWwL/?height=300&theme-id=35490&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/lsuddem/pen/rPPWwL/'>PDM Sound - More Envelopes </a> by LSU DDEM
+  (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+[starter](https://codepen.io/lsuddem/pen/Oddbgr)

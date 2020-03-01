@@ -3,6 +3,17 @@ title: "Scheduling Signals"
 theme: sky 
 ---
 
+## LFO (Low Frequency Oscillator)
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="PDM Sound - LFO" src="//codepen.io/lsuddem/embed/JxxbMy/?height=300&theme-id=35490&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/lsuddem/pen/JxxbMy/'>PDM Sound - LFO</a> by LSU DDEM
+  (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+[starter](https://codepen.io/lsuddem/pen/QYYGmL)
+
+---
+
 # Scheduling Signals
 
 ---
@@ -19,6 +30,13 @@ oscillator.frequency.value = 100; //sets the value immediately
 ---
 
 ## Scheduling Values
+
+- these are used to create [Envelopes](https://github.com/Tonejs/Tone.js/blob/e68fe68e4c4fef5b6eb3771491e9362c5b93579c/Tone/component/envelope/Envelope.ts#L355) in tone, but we can use them on their own
+- See documentation in the [Param](https://tonejs.github.io/docs/13.8.25/Param) section of the docs 
+
+---
+
+## Types of scheduling
 
 - **setValueAtTime** - to schedule a value change at a precise time.
 - **linearRampToValueAtTime** - to ramp to a value starting from the previously scheduled value.
@@ -45,6 +63,13 @@ oscillator.frequency.value = 100; //sets the value immediately
 - Number: seconds
   - 1.2: 1.2 seconds 
 - String: synchronized to the Tone.Transport
+
+- ex of setting BPM: 
+```
+Tone.Transport.bpm.value = 80;
+//ramp the bpm to 120 over 10 seconds
+Tone.Transport.bpm.rampTo(120, 10)
+```
 
 ---
 
@@ -95,7 +120,7 @@ oscillator.frequency.value = 100; //sets the value immediately
 [examples](https://tonejs.github.io/examples/lfoEffects.html)
 
 ---
-
+<!-- 
 ## Tremolo and Vibrato
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="PDM Sound - Tremolo remake" src="//codepen.io/lsuddem/embed/VgNOVb/?height=300&theme-id=35490&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
@@ -103,9 +128,9 @@ oscillator.frequency.value = 100; //sets the value immediately
   (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-[starter](https://codepen.io/lsuddem/pen/ErzRmz)
+[starter](https://codepen.io/lsuddem/pen/ErzRmz) -->
 
----
+<!-- --- -->
 
 ## Autofilter and Autopan
 
@@ -115,3 +140,14 @@ oscillator.frequency.value = 100; //sets the value immediately
 </iframe>
 
 [starter](https://codepen.io/lsuddem/pen/ErzeKo?editors=1011)
+
+---
+
+## Additive synth 
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Additive synth example" src="https://codepen.io/lsuddem/embed/yLNXvNZ?height=300&theme-id=37199&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/lsuddem/pen/yLNXvNZ'>Additive synth example</a> by LSU DDEM
+  (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+[starter](https://codepen.io/lsuddem/pen/zYGzRKx?editors=0010)
