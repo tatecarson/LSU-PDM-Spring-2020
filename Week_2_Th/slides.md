@@ -4,7 +4,6 @@ theme: sky
 ---
 
 # Audio Project 3
-[link](https://moodle3.lsu.edu/mod/assign/view.php?id=988731)
 
 ---
 

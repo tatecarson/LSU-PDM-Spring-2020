@@ -34,6 +34,8 @@ function startContext() {
     console.log("Tone is: ", Tone.context.state);
   });
 }
+
+startContext(); 
 ```
 Then call that function in the setup. 
 
