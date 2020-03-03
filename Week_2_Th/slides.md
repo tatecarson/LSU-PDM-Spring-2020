@@ -9,11 +9,10 @@ theme: sky
 
 ## Examples from last year
 
-* [project 1](project-examples/project-1)
-* [project 2](project-examples/project-2)
-* [project 3](project-examples/project-3)
-* [project 4](project-examples/project-4)
-
+* [project 1](https://lsu-pdm-2020.netlify.com/week_2_th/project-examples/project-1/)
+* [project 2](https://lsu-pdm-2020.netlify.com/week_2_th/project-examples/project-2/)
+* [project 3](https://lsu-pdm-2020.netlify.com/week_2_th/project-examples/project-3/)
+* [project 4](https://lsu-pdm-2020.netlify.com/week_2_th/project-examples/project-4/)
 ---
 
 ## LFO (Low Frequency Oscillator)
