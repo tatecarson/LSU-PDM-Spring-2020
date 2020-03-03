@@ -14,7 +14,7 @@ theme: sky
 * [project 3](project-examples/project-3)
 * [project 4](project-examples/project-4)
 
---- 
+---
 
 ## LFO (Low Frequency Oscillator)
 
