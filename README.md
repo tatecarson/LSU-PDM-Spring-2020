@@ -37,7 +37,6 @@ function startContext() {
 
 startContext(); 
 ```
-Then call that function in the setup. 
 
 ### Tone.js
 
