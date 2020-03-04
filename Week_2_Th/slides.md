@@ -155,11 +155,3 @@ Tone.Transport.bpm.rampTo(120, 10)
 
 ---
 
-## Additive synth 
-
-<iframe height="300" style="width: 100%;" scrolling="no" title="Additive synth example" src="https://codepen.io/lsuddem/embed/yLNXvNZ?height=300&theme-id=37199&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/lsuddem/pen/yLNXvNZ'>Additive synth example</a> by LSU DDEM
-  (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-[starter](https://codepen.io/lsuddem/pen/zYGzRKx?editors=0010)

@@ -3,6 +3,17 @@ title: "Synthesizer tour"
 theme: sky 
 ---
 
+## Additive synth 
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Additive synth example" src="https://codepen.io/lsuddem/embed/yLNXvNZ?height=300&theme-id=37199&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/lsuddem/pen/yLNXvNZ'>Additive synth example</a> by LSU DDEM
+  (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+[starter](https://codepen.io/lsuddem/pen/zYGzRKx?editors=0010)
+
+---
+
 ## Getting presets
 
 [presets](https://www.guitarland.com/MusicTheoryWithToneJS/Presets-gh-pages/)
@@ -78,7 +89,7 @@ theme: sky
 ---
 
 * everything triggered at the same time
-* FilterEnvelope, sim to ScaledEnvelope but with musical values
+* FilterEnvelope, a FrequencyEnvelope
   * see: [FrequencyEnvelope docs](https://tonejs.github.io/docs/r13/FrequencyEnvelope) 
   * parameters only noticeable with longer amplitude envelopes
   * baseFrequency - min
@@ -210,7 +221,9 @@ theme: sky
   See the Pen <a href='https://codepen.io/lsuddem/pen/EMxjzd/'>Tone.Transport - schedule and scheduleRepeat</a> by LSU DDEM
   (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
-  
+
+[starter](https://codepen.io/lsuddem/pen/rNVGeRB?editors=0010)
+
 ---
 
 # higher level sequencers
@@ -238,6 +251,8 @@ theme: sky
 ---
 
  * https://codepen.io/lsuddem/pen/bZGwaz?editors=0011
+
+[starter](https://codepen.io/lsuddem/pen/zYGEqQG?editors=0011)
 
 ---
   
