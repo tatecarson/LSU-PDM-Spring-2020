@@ -7,7 +7,11 @@ theme: sky
 ## Audio project 4
 ### Sound with visuals
 
-[link](https://moodle3.lsu.edu/mod/assign/view.php?id=988732)
+[link](https://moodle3.lsu.edu/mod/assign/view.php?id=1362971)
+
+---
+
+* See [HackPact](https://github.com/stc/HackPact) for inspiration
 
 ---
 
@@ -18,123 +22,15 @@ theme: sky
   (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
----
-
-* See [HackPact](https://github.com/stc/HackPact) for inspiration
 
 ---
 
+[Sequencing/timing examples](https://tonejs.github.io/examples/stepSequencer.html)
+
+---
 ## Sequencing notes
 
-* Tone.Transport
-  * start
-  * stop
-  * toggle
-    * go between start and stop
-  * seconds
-    * get current position in seconds
-  * position
-    * get beats:bars:sixteens
-  * bpm
-    *  beats per minute
-
----
-
-  * schedule
-  * scheduleRepeat
-
-<iframe height="265" style="width: 100%;" scrolling="no" title="Tone.Transport - schedule and scheduleRepeat" src="//codepen.io/lsuddem/embed/EMxjzd/?height=265&theme-id=0&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/lsuddem/pen/EMxjzd/'>Tone.Transport - schedule and scheduleRepeat</a> by LSU DDEM
-  (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-[starter](https://codepen.io/lsuddem/pen/rNVGeRB?editors=0010)
-
----
-
-
-# higher level sequencers
-
----
-  
-## Event
-* abstracts away Tone.Transport.schedule and provides a schedulable callback for a single or repeatable events along the timeline
-* loop
-  * true of false
-* loopEnd
-* loopStart
-* mute
-  * won't fire if mute is true
-
----
-
-* playbackRate
-  * interval if looped
-* probability
-  * add randomness to note triggered probability
-* progress
-  * where are we in the loop?
-
----
-
- * https://codepen.io/lsuddem/pen/bZGwaz?editors=0011
-
-[starter](https://codepen.io/lsuddem/pen/zYGEqQG?editors=0011)
-
----
-  
-## Part
-
-*  collection Tone.Events which can be started/stopped and looped as a single unit.
-*  https://codepen.io/lsuddem/pen/aMbBPa
-
----
-
-   *  Thursday
-    * Sequence
-    * Pattern
-    * Loop
-  
----
-
-## Sound Effect
-
----
-
-## Massive impact
-
-<iframe height="490" style="width: 100%;" scrolling="no" title="Massive Impact" src="//codepen.io/lsuddem/embed/moyYbx/?height=300&theme-id=35490&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/lsuddem/pen/moyYbx/'>Massive Impact</a> by LSU DDEM
-  (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-[starter](https://codepen.io/lsuddem/pen/eXNXMy?editors=0010)
----
-## Rain on a tin roof
-
-<iframe height="490" style="width: 100%;" scrolling="no" title="Rain on a tin roof " src="//codepen.io/lsuddem/embed/ZPYdLa/?height=300&theme-id=35490&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/lsuddem/pen/ZPYdLa/'>Rain on a tin roof </a> by LSU DDEM
-  (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-[starter](https://codepen.io/lsuddem/pen/wOaOxW?editors=1010)
-
----
-
-## Sirens
-
-<iframe height="490" style="width: 100%;" scrolling="no" title="Sirens" src="//codepen.io/lsuddem/embed/oVXyaE/?height=300&theme-id=35490&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/lsuddem/pen/oVXyaE/'>Sirens</a> by LSU DDEM
-  (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-[starter](https://codepen.io/lsuddem/pen/jJPJoL?editors=0010)
-
----
-
-## Sequencing notes
-
-* Tone.Transport
+* [Tone.Transport](https://github.com/Tonejs/Tone.js/wiki/Transport)
   * start
   * stop
   * toggle
@@ -160,12 +56,13 @@ theme: sky
 
 # higher level sequencers
 
+[overview](https://github.com/Tonejs/Tone.js/wiki/Events)
 ---
   
 ## Event
 * abstracts away Tone.Transport.schedule and provides a schedulable callback for a single or repeatable events along the timeline
 * loop
-  * true of false
+  * true or false
 * loopEnd
 * loopStart
 * mute
@@ -186,10 +83,20 @@ theme: sky
   See the Pen <a href='https://codepen.io/lsuddem/pen/bZGwaz/'>Tone.Transport - Event</a> by LSU DDEM
   (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
-[starter](https://codepen.io/lsuddem/pen/LaVvpw?editors=0011)
+[starter](https://codepen.io/lsuddem/pres/LaVvpw?editors=0011)
 
 ---
-  
+## Rain on a tin roof
+
+<iframe height="490" style="width: 100%;" scrolling="no" title="Rain on a tin roof " src="//codepen.io/lsuddem/embed/ZPYdLa/?height=300&theme-id=35490&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/lsuddem/pen/ZPYdLa/'>Rain on a tin roof </a> by LSU DDEM
+  (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+[starter](https://codepen.io/lsuddem/pres/wOaOxW?editors=1010)
+
+---
+
 ## Part
 
 *  collection Tone.Events which can be started/stopped and looped as a single unit.
@@ -199,7 +106,7 @@ theme: sky
   (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-[starter](https://codepen.io/lsuddem/pen/qvdwae)
+[starter](https://codepen.io/lsuddem/pres/qvdwae)
 ---
 
 ## Sequence
@@ -211,7 +118,7 @@ theme: sky
   (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-[starter](https://codepen.io/lsuddem/pen/bZdJZK)
+[starter](https://codepen.io/lsuddem/pres/bZdJZK)
 ---
 ## Loop
 
@@ -229,7 +136,7 @@ theme: sky
   (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-[starter](https://codepen.io/lsuddem/pen/VRLOQy?editors=0010)
+[starter](https://codepen.io/lsuddem/pres/VRLOQy?editors=0010)
 
 ---
 
@@ -249,3 +156,28 @@ theme: sky
 </iframe>
 
 ---
+
+## Sound Effect
+
+---
+
+## Massive impact
+
+<iframe height="490" style="width: 100%;" scrolling="no" title="Massive Impact" src="//codepen.io/lsuddem/embed/moyYbx/?height=300&theme-id=35490&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/lsuddem/pen/moyYbx/'>Massive Impact</a> by LSU DDEM
+  (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+[starter](https://codepen.io/lsuddem/pres/eXNXMy?editors=0010)
+
+
+---
+
+## Sirens
+
+<iframe height="490" style="width: 100%;" scrolling="no" title="Sirens" src="//codepen.io/lsuddem/embed/oVXyaE/?height=300&theme-id=35490&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/lsuddem/pen/oVXyaE/'>Sirens</a> by LSU DDEM
+  (<a href='https://codepen.io/lsuddem'>@lsuddem</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+[starter](https://codepen.io/lsuddem/pres/jJPJoL?editors=0010)
