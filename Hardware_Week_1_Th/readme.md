@@ -17,7 +17,7 @@ We will be using this editor to send code to our Arduino boards.
 
 ## Intro to electricity 
 
-Hardware [slides](hardware1-slides.pptx)
+Hardware [slides](hardware1.pdf)
 
 ## Reading resistor values
 
