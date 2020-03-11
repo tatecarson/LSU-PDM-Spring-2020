@@ -5,7 +5,13 @@
 
 ## Software setup 
 
-Find the Arduino IDE [here](https://www.arduino.cc/en/Main/Software), download and install. You could also try the web editor though I have not tested it.
+Find the Arduino IDE [here](https://www.arduino.cc/en/Main/Software), download and install.
+
+Alternative:
+
+[Arduino Create](https://create.arduino.cc/) - web based IDE
+
+This seems to have some limits, use it only if needed. 
 
 We will be using this editor to send code to our Arduino boards. 
 
@@ -43,10 +49,10 @@ Blink [tutorial](http://www.arduino.cc/en/Tutorial/Blink)
 We will use this example to send 5v to the LED to turn it on and then 0v to turn it off. This loops over and over. 
 
 # Circuit 
-from tutorial: 
-```
- connect one end of the resistor (220 ohms) to the digital pin correspondent to the LED_BUILTIN constant (digital pin 13). Connect the long leg of the LED (the positive leg, called the anode) to the other end of the resistor. Connect the short leg of the LED (the negative leg, called the cathode) to the GND. In the diagram below we show an UNO board that has D13 as the LED_BUILTIN value.
-```
+from tutorial:
+
+>connect one end of the resistor (220 ohms) to the digital pin correspondent to the LED_BUILTIN constant (digital pin 13). Connect the long leg of the LED (the positive leg, called the anode) to the other end of the resistor. Connect the short leg of the LED (the negative leg, called the cathode) to the GND. In the diagram below we show an UNO board that has D13 as the LED_BUILTIN value.
+
 
 
 ### Functions 
