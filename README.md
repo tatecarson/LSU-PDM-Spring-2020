@@ -15,6 +15,8 @@ Examples for Programming Digital Media class at Louisiana State University, Spri
 - **3-5-20** - Instruments and Sequencers - [slides](https://lsu-pdm-2020.netlify.com/week_3_t/_site/#/), [textbook](https://pdm.lsupathways.org/3_audio/2_synthsandmusic/2_lesson_2/)
 - **3-9-20** - Sound Effects and Sequencers - [slides](https://lsu-pdm-2020.netlify.com/week_3_th/_site/#/)
 <!-- - **3-6-19** - Rhythm / Scales / Tuning / Distributed smartphone music - [slides](https://lsu-pdm-2019.netlify.com/week_4_t/_static/#/) -->
+**3-12-20** - Arduino introduction - [notes](Hardware_Week_1_Th)
+
 ## Resources
 
 - Starter templates
