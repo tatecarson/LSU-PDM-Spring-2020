@@ -8,6 +8,7 @@ Examples for Programming Digital Media class at Louisiana State University, Spri
 ---
 
 ## Lectures
+### Tone.js
 - **2-13-20** - Web audio basics and sound file players - [slides](https://lsu-pdm-2020.netlify.com/week_1_t/_site/#/), [textbook](https://pdm.lsupathways.org/3_audio/1_sampler/1_lesson_1/)
 - **2-18-20** - Adding effects and intro to synthesis - [slides](https://lsu-pdm-2020.netlify.com/week_1_th/_site/#/), [textbook](https://pdm.lsupathways.org/3_audio/1_sampler/2_lesson_2/)
 - **2-20-20** - **20-27-20**  - Making synthesizers from scratch - [slides](https://lsu-pdm-2020.netlify.com/week_2_t/_site/#/)
@@ -15,7 +16,10 @@ Examples for Programming Digital Media class at Louisiana State University, Spri
 - **3-5-20** - Instruments and Sequencers - [slides](https://lsu-pdm-2020.netlify.com/week_3_t/_site/#/), [textbook](https://pdm.lsupathways.org/3_audio/2_synthsandmusic/2_lesson_2/)
 - **3-9-20** - Sound Effects and Sequencers - [slides](https://lsu-pdm-2020.netlify.com/week_3_th/_site/#/)
 <!-- - **3-6-19** - Rhythm / Scales / Tuning / Distributed smartphone music - [slides](https://lsu-pdm-2019.netlify.com/week_4_t/_static/#/) -->
-**3-12-20** - Arduino introduction - [notes](Hardware_Week_1_Th)
+
+### Arduino
+
+* **3-12-20** - Arduino introduction - [notes](Hardware_Week_1_Th)
 
 ## Resources
 
