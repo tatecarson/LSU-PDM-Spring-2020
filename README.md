@@ -48,6 +48,17 @@ function startContext() {
 startContext(); 
 ```
 
+That has stopped working for some students, if it does try this instead: 
+```
+function mousePressed() {
+  if(Tone.context.state === 'suspended') {
+    Tone.context.resume();
+  }
+}
+```
+
+This if statement could go anywhere where the user can trigger it with an event. 
+
 ### Tone.js
 
 #### Basics
