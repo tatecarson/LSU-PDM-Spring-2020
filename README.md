@@ -4,6 +4,10 @@ Examples for Programming Digital Media class at Louisiana State University, Spri
 
 - email: <tcarso2@lsu.edu>   
 - Office hours: 1pm to 3pm Monday in the Digital Media Center (2006)
+- Zoom: <tcarso2@lsu.edu>
+- Ask for help on the [Discord](https://discord.gg/jzG8rS)
+  -  you can post a question about anything related to the class and one of your classmate or I will aswer it. 
+  
 
 ---
 
