@@ -33,6 +33,8 @@ Examples for Programming Digital Media class at Louisiana State University, Spri
   * [notes](Hardware_Week_2_T)
   * Video tutorials
     * [Fading](https://www.youtube.com/watch?v=vd93XYizHJ8)
+    * [Analog Input](https://youtu.be/tU6CDI3UI34)
+      * note: the intro to this was cut off but the circuit that is already there is from the blink tutorial. The thing i'm holding is a potentiometer that allows analog input between 0v and 5v.
 
 
 ## Resources
