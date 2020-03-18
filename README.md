@@ -29,7 +29,10 @@ Examples for Programming Digital Media class at Louisiana State University, Spri
   * [notes](Hardware_Week_1_Th)
   * Video Tutorials
     * [Blink](https://www.youtube.com/watch?v=5vkuxBmWNDo)
-  
+  * [notes](Hardware_Week_2_T)
+  * Video tutorials
+    * [Fading](https://www.youtube.com/watch?v=vd93XYizHJ8)
+
 
 ## Resources
 
