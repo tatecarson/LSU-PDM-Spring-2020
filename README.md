@@ -25,12 +25,10 @@ Examples for Programming Digital Media class at Louisiana State University, Spri
 
 ### Arduino
 
-* Digital out
-  * [notes](Hardware_Week_1_Th)
+* Digital out - [notes](Hardware_Week_1_Th)
   * Video tutorials
     * [Blink](https://www.youtube.com/watch?v=5vkuxBmWNDo)
-* Analog Out 
-  * [notes](Hardware_Week_2_T)
+* Analog Out - [notes](Hardware_Week_2_T)
   * Video tutorials
     * [Fading](https://www.youtube.com/watch?v=vd93XYizHJ8)
     * [Analog Input](https://youtu.be/tU6CDI3UI34)
