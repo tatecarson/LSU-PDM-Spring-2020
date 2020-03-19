@@ -28,15 +28,17 @@ Examples for Programming Digital Media class at Louisiana State University, Spri
 Video tutorials and notes
 
 * Digital out - [notes](Hardware_Week_1_Th)
-    * [Blink](https://www.youtube.com/watch?v=5vkuxBmWNDo)
+    * [Blink](https://www.youtube.com/watch?v=5vkuxBmWNDo) - blink an LED
 * Analog Out - [notes](Hardware_Week_2_T)
-    * [Fading](https://www.youtube.com/watch?v=vd93XYizHJ8)
+    * [Fading](https://www.youtube.com/watch?v=vd93XYizHJ8) - fade an LED
 * Analog Input 
-  * [Potentiometer](https://youtu.be/tU6CDI3UI34)
+  * [Potentiometer](https://youtu.be/tU6CDI3UI34) - control the rate of blinking of the LED
       * Note: the intro to this was cut off but the circuit that is already there is from the blink tutorial. The thing i'm holding is a potentiometer that allows analog input between 0v and 5v.
   * [Photoresistor](https://youtu.be/0vB-MQ8Xu80)
     * Note: I was referring to the serial monitor through this video but didn't realize that it wasn't recording the screen. You should be able to see it on your computer.
-
+* Digital Input
+  * [Button part 1](https://youtu.be/70QLvamyvLY) - turn an LED on and off with a button.
+  * [Button part 2](https://youtu.be/O-ag-6QlpDA) - the code for the button example. 
 
 ## Resources
 
