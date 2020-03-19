@@ -15,7 +15,7 @@ void setup() {
 void loop() {
   int button1 = digitalRead(2);
   int button2 = digitalRead(4);
-  
+  Serial.println(button2);
   if (button1) {
     // Control fade with pot
     ///////////////////////

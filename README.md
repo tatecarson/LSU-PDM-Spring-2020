@@ -39,6 +39,8 @@ Video tutorials and notes
 * Digital Input
   * [Button part 1](https://youtu.be/70QLvamyvLY) - turn an LED on and off with a button.
   * [Button part 2](https://youtu.be/O-ag-6QlpDA) - the code for the button example. 
+* Fading machine with states
+  * [Fade LED automatically or manually](https://youtu.be/JDvBIzrUiPI) - press one button and the LED fades up and down automaically, press the other button and then you can fade the LED manually with a potentiometer. If nothing is pressed then the LED is off.  
 
 ## Resources
 
