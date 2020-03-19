@@ -25,14 +25,17 @@ Examples for Programming Digital Media class at Louisiana State University, Spri
 
 ### Arduino
 
+Video tutorials and notes
+
 * Digital out - [notes](Hardware_Week_1_Th)
-  * Video tutorials
     * [Blink](https://www.youtube.com/watch?v=5vkuxBmWNDo)
 * Analog Out - [notes](Hardware_Week_2_T)
-  * Video tutorials
     * [Fading](https://www.youtube.com/watch?v=vd93XYizHJ8)
-    * [Analog Input](https://youtu.be/tU6CDI3UI34)
-      * note: the intro to this was cut off but the circuit that is already there is from the blink tutorial. The thing i'm holding is a potentiometer that allows analog input between 0v and 5v.
+* Analog Input 
+  * [Potentiometer](https://youtu.be/tU6CDI3UI34)
+      * Note: the intro to this was cut off but the circuit that is already there is from the blink tutorial. The thing i'm holding is a potentiometer that allows analog input between 0v and 5v.
+  * [Photoresistor](https://youtu.be/0vB-MQ8Xu80)
+    * Note: I was referring to the serial monitor through this video but didn't realize that it wasn't recording the screen. You should be able to see it on your computer.
 
 
 ## Resources
