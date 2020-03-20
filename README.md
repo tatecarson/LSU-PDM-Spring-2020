@@ -29,9 +29,12 @@ Video tutorials and notes
 
 * Digital out - [notes](Hardware_Week_1_Th)
     * Blink - blink an LED [[video](https://www.youtube.com/watch?v=5vkuxBmWNDo), [code](https://www.arduino.cc/en/Tutorial/Blink)]
-* Analog Out - [notes](Hardware_Week_2_T)
-    * Fading - fade an LED [[video](https://www.youtube.com/watch?v=vd93XYizHJ8), [code](https://www.arduino.cc/en/Tutorial/Fading)]
-* Analog Input 
+    * Morse code introduction - how to do the morse code assignment. [[video](https://youtu.be/18gWlNBlRoQ)]
+* Analog Out (Pulse Width Modulation) - [notes](Hardware_Week_2_T)
+    * Tate's Fading tutorial - fade an LED [[video](https://www.youtube.com/watch?v=vd93XYizHJ8), [code](https://www.arduino.cc/en/Tutorial/Fading)]
+    * Simron's fading tutorial - this covers the same information but might be useful for reinforcement. [[video](https://youtu.be/O1DLHSXtBhs)]
+    * PWM game introduction - more PWM details and also introduces using a potentiometer. [[video](https://youtu.be/f03C7euWj6o)]
+* Analog Input
   * Potentiometer - control the rate of blinking of the LED [[video](https://youtu.be/tU6CDI3UI34), [code](https://github.com/tatecarson/LSU-PDM-Spring-2020/blob/master/Hardware_Week_2_T/3_AnalogInput_FINISHED/3_AnalogInput_FINISHED.ino)]
       * Note: the intro to this was cut off but the circuit that is already there is from the blink tutorial. The thing i'm holding is a potentiometer that allows analog input between 0v and 5v.
   * Photoresistor - control circuit with light [[video](https://youtu.be/0vB-MQ8Xu80), [code](https://github.com/tatecarson/LSU-PDM-Spring-2020/blob/master/Hardware_Week_2_Th/fade_photoresistor/fade_photoresistor.ino)]
