@@ -28,21 +28,21 @@ Examples for Programming Digital Media class at Louisiana State University, Spri
 Video tutorials and notes
 
 * Digital out - [notes](Hardware_Week_1_Th)
-    * [Blink](https://www.youtube.com/watch?v=5vkuxBmWNDo) - blink an LED
+    * Blink - blink an LED [[video](https://www.youtube.com/watch?v=5vkuxBmWNDo), [code](https://www.arduino.cc/en/Tutorial/Blink)]
 * Analog Out - [notes](Hardware_Week_2_T)
-    * [Fading](https://www.youtube.com/watch?v=vd93XYizHJ8) - fade an LED
+    * Fading - fade an LED [[video](https://www.youtube.com/watch?v=vd93XYizHJ8), [code](https://www.arduino.cc/en/Tutorial/Fading)]
 * Analog Input 
-  * [Potentiometer](https://youtu.be/tU6CDI3UI34) - control the rate of blinking of the LED
+  * Potentiometer - control the rate of blinking of the LED [[video](https://youtu.be/tU6CDI3UI34), [code](https://github.com/tatecarson/LSU-PDM-Spring-2020/blob/master/Hardware_Week_2_T/3_AnalogInput_FINISHED/3_AnalogInput_FINISHED.ino)]
       * Note: the intro to this was cut off but the circuit that is already there is from the blink tutorial. The thing i'm holding is a potentiometer that allows analog input between 0v and 5v.
-  * [Photoresistor](https://youtu.be/0vB-MQ8Xu80)
+  * Photoresistor - control circuit with light [[video](https://youtu.be/0vB-MQ8Xu80), [code](https://github.com/tatecarson/LSU-PDM-Spring-2020/blob/master/Hardware_Week_2_Th/fade_photoresistor/fade_photoresistor.ino)]
     * Note: I was referring to the serial monitor through this video but didn't realize that it wasn't recording the screen. You should be able to see it on your computer.
 * Digital Input
-  * [Button part 1](https://youtu.be/70QLvamyvLY) - turn an LED on and off with a button.
-  * [Button part 2](https://youtu.be/O-ag-6QlpDA) - the code for the button example. 
+  * turn an LED on and off with a button. [[video pt 1]((https://youtu.be/70QLvamyvLY))]
+  * the code for the button example [[video pt 2](https://youtu.be/O-ag-6QlpDA), [code](https://www.arduino.cc/en/Tutorial/Button)]
 * Fading machine with states
-  * [Fade LED automatically or manually](https://youtu.be/JDvBIzrUiPI) - press one button and the LED fades up and down automatically, press the other button and then you can fade the LED manually with a potentiometer. If nothing is pressed then the LED is off.  
-  * [with toggle buttons](https://youtu.be/VrVjUOgyflo) - updated version of the previous example but now with toggle buttons instead of momentary buttons. 
-  * [debouncing buttons](https://youtu.be/BJc8L2R014s) - an example of debouncing a button to fix unpredictable button presses. Debouncing is when you set a threshold of time when only the first press gets recorded, everything else is ignored. This ensures that noise in a circuit is filtered out when necessary. 
+  * Fade LED automatically or manually - press one button and the LED fades up and down automatically, press the other button and then you can fade the LED manually with a potentiometer. If nothing is pressed then the LED is off. [[video](https://youtu.be/JDvBIzrUiPI), [code](https://github.com/tatecarson/LSU-PDM-Spring-2020/blob/master/Hardware_Week_2_Th/fade/fade.ino) ]
+  * with toggle buttons - updated version of the previous example but now with toggle buttons instead of momentary buttons. [[video](https://youtu.be/VrVjUOgyflo), [code](https://github.com/tatecarson/LSU-PDM-Spring-2020/blob/master/Hardware_Week_2_Th/fade_withStates/fade_withStates.ino)]
+  * debouncing buttons - an example of debouncing a button to fix unpredictable button presses. Debouncing is when you set a threshold of time when only the first press gets recorded, everything else is ignored. This ensures that noise in a circuit is filtered out when necessary. [[video](https://youtu.be/BJc8L2R014s), [code](https://www.arduino.cc/en/Tutorial/Debounce)]
 
 ## Resources
 
