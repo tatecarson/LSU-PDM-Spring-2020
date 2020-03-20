@@ -40,7 +40,7 @@ Video tutorials and notes
   * Photoresistor - control circuit with light [[video](https://youtu.be/0vB-MQ8Xu80), [code](https://github.com/tatecarson/LSU-PDM-Spring-2020/blob/master/Hardware_Week_2_Th/fade_photoresistor/fade_photoresistor.ino)]
     * Note: I was referring to the serial monitor through this video but didn't realize that it wasn't recording the screen. You should be able to see it on your computer.
 * Digital Input
-  * turn an LED on and off with a button. [[video pt 1]((https://youtu.be/70QLvamyvLY))]
+  * turn an LED on and off with a button. [[video pt 1](https://youtu.be/70QLvamyvLY)]
   * the code for the button example [[video pt 2](https://youtu.be/O-ag-6QlpDA), [code](https://www.arduino.cc/en/Tutorial/Button)]
 * Fading machine with states
   * Fade LED automatically or manually - press one button and the LED fades up and down automatically, press the other button and then you can fade the LED manually with a potentiometer. If nothing is pressed then the LED is off. [[video](https://youtu.be/JDvBIzrUiPI), [code](https://github.com/tatecarson/LSU-PDM-Spring-2020/blob/master/Hardware_Week_2_Th/fade/fade.ino) ]
