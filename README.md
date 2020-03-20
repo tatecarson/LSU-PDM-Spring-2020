@@ -40,7 +40,9 @@ Video tutorials and notes
   * [Button part 1](https://youtu.be/70QLvamyvLY) - turn an LED on and off with a button.
   * [Button part 2](https://youtu.be/O-ag-6QlpDA) - the code for the button example. 
 * Fading machine with states
-  * [Fade LED automatically or manually](https://youtu.be/JDvBIzrUiPI) - press one button and the LED fades up and down automaically, press the other button and then you can fade the LED manually with a potentiometer. If nothing is pressed then the LED is off.  
+  * [Fade LED automatically or manually](https://youtu.be/JDvBIzrUiPI) - press one button and the LED fades up and down automatically, press the other button and then you can fade the LED manually with a potentiometer. If nothing is pressed then the LED is off.  
+  * [with toggle buttons](https://youtu.be/VrVjUOgyflo) - updated version of the previous example but now with toggle buttons instead of momentary buttons. 
+  * [debouncing buttons](https://youtu.be/BJc8L2R014s) - an example of debouncing a button to fix unpredictable button presses. Debouncing is when you set a threshold of time when only the first press gets recorded, everything else is ignored. This ensures that noise in a circuit is filtered out when necessary. 
 
 ## Resources
 
