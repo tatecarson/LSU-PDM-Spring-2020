@@ -11,7 +11,7 @@ by Tom Igoe
 // Declare a "SerialPort" object
 var serial;
 
-var portName = '/dev/cu.usbmodem14131'; // fill in your serial port name here
+var portName = '/dev/tty.usbmodem1424201'; // fill in your serial port name here
 
 // this is the message that will be sent to the Arduino:
 var outMessage = 'H';
@@ -66,4 +66,9 @@ function mouseReleased() {
   } else {
     outMessage = 'H';
   }
+}
+
+function keyPressed() {
+  serial.write(keyCode);
+  console.log(keyCode)
 }

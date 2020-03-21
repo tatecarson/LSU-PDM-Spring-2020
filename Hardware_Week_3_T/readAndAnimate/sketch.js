@@ -14,7 +14,7 @@ by Tom Igoe
 // Declare a "SerialPort" object
 var serial;
 // fill in the name of your serial port here:
-var portName = "/dev/cu.usbmodem1411";
+var portName = "/dev/tty.usbmodem1424201";
 var textXpos = 10;
 
 function setup() {

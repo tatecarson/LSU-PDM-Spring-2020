@@ -44,12 +44,12 @@ void loop()
 
     if (digital) {
       // if it's a capital H (ASCII 72), turn on the LED:
-      if (incomingByte == 'H')
+      if (incomingByte == 72)
       {
         digitalWrite(ledPin, HIGH);
       }
       // if it's an L (ASCII 76) turn off the LED:
-      if (incomingByte == 'L')
+      if (incomingByte == 76)
       {
         digitalWrite(ledPin, LOW);
       }

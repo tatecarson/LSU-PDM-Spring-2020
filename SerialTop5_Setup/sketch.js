@@ -1,7 +1,10 @@
+// Use with the AnalogReadSerial example 
+
 // Declare a "SerialPort" object
+
 var serial;
 var latestData = 'waiting for data'; // you'll use this to write incoming data to the canvas
-const portName = '/dev/cu.usbmodem1421'; // fill in your serial port name here
+const portName = '/dev/tty.usbmodem1424201'; // fill in your serial port name here
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
@@ -79,7 +82,7 @@ function gotData() {
 	trim(currentString); // remove any trailing whitespace
 	if (!currentString) return; // if the string is empty, do no more
 	console.log(currentString); // println the string
-	latestData = currentString; // save it for the draw method
+  latestData = currentString; // save it for the draw method
 }
 
 // We got raw from the serial port
@@ -105,11 +108,6 @@ function draw() {
 	background(255, 255, 255);
 	fill(0, 0, 0);
 	text(latestData, 10, 10);
-	// Polling method
-	/*
-  if (serial.available() > 0) {
-  var data = serial.read();
-  ellipse(50,50,data,data);
-}
-*/
+
+  ellipse(latestData, 20, 10, 10);
 }
