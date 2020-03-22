@@ -25,7 +25,7 @@
 
 const int ledPin = 9; // the pin that the LED is attached to
 int incomingByte;      // a variable to read incoming serial data into
-boolean digital = false;
+boolean digital = true;
 void setup()
 {
   // initialize serial communication:
@@ -36,12 +36,20 @@ void setup()
 
 void loop()
 {
+  int button = digitalRead(2); 
+  if(button == 0) {
+    digital = true; 
+  } else {
+    digital = false; 
+  }
+  
   // see if there's incoming serial data:
   if (Serial.available() > 0)
   {
     // read the oldest byte in the serial buffer:
     incomingByte = Serial.read();
 
+    
     if (digital) {
       // if it's a capital H (ASCII 72), turn on the LED:
       if (incomingByte == 72)

@@ -48,6 +48,7 @@ Video tutorials and notes
   * debouncing buttons - an example of debouncing a button to fix unpredictable button presses. Debouncing is when you set a threshold of time when only the first press gets recorded, everything else is ignored. This ensures that noise in a circuit is filtered out when necessary. [[video](https://youtu.be/BJc8L2R014s), [code](https://www.arduino.cc/en/Tutorial/Debounce)]
 * Serial communication (Arduino <---> p5.js)
   * Basic setup - Arduino --> p5.js [[video](https://youtu.be/AuPWylJi1lU), [code](SerialTop5_Setup)]
+  * p5.js --> Arduino [[video](https://youtu.be/zxaIv6GVosU), [code](Hardware_Week_3_T/writeExample)]
 
 ## Resources
 
