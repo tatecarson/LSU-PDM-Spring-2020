@@ -107,7 +107,11 @@ function gotRawData(thedata) {
 function draw() {
 	background(255, 255, 255);
 	fill(0, 0, 0);
-	text(latestData, 10, 10);
+  
+  // draw data as text
+  text(latestData, 10, 10);
 
-  ellipse(latestData, 20, 10, 10);
+  // animate with the data
+  let rectWidth = map(latestData, 0, 1023, 10, 800)
+  rect(20, 20, rectWidth, 40);
 }

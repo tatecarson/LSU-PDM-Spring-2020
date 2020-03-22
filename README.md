@@ -46,6 +46,8 @@ Video tutorials and notes
   * Fade LED automatically or manually - press one button and the LED fades up and down automatically, press the other button and then you can fade the LED manually with a potentiometer. If nothing is pressed then the LED is off. [[video](https://youtu.be/JDvBIzrUiPI), [code](https://github.com/tatecarson/LSU-PDM-Spring-2020/blob/master/Hardware_Week_2_Th/fade/fade.ino) ]
   * with toggle buttons - updated version of the previous example but now with toggle buttons instead of momentary buttons. [[video](https://youtu.be/VrVjUOgyflo), [code](https://github.com/tatecarson/LSU-PDM-Spring-2020/blob/master/Hardware_Week_2_Th/fade_withStates/fade_withStates.ino)]
   * debouncing buttons - an example of debouncing a button to fix unpredictable button presses. Debouncing is when you set a threshold of time when only the first press gets recorded, everything else is ignored. This ensures that noise in a circuit is filtered out when necessary. [[video](https://youtu.be/BJc8L2R014s), [code](https://www.arduino.cc/en/Tutorial/Debounce)]
+* Serial communication (Arduino <---> p5.js)
+  * Basic setup - Arduino --> p5.js [[video](https://youtu.be/AuPWylJi1lU), [code](SerialTop5_Setup)]
 
 ## Resources
 
