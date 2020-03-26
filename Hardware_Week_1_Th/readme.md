@@ -53,7 +53,9 @@ from tutorial:
 
 >connect one end of the resistor (220 ohms) to the digital pin correspondent to the LED_BUILTIN constant (digital pin 13). Connect the long leg of the LED (the positive leg, called the anode) to the other end of the resistor. Connect the short leg of the LED (the negative leg, called the cathode) to the GND. In the diagram below we show an UNO board that has D13 as the LED_BUILTIN value.
 
+### Circuit Daigram 
 
+![circuit](LED_Diagram_bb.jpg)
 
 ### Functions 
 

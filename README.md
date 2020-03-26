@@ -28,7 +28,7 @@ Examples for Programming Digital Media class at Louisiana State University, Spri
 Video tutorials and notes
 
 * Digital out - [notes](Hardware_Week_1_Th)
-    * Blink - blink an LED [[video](https://www.youtube.com/watch?v=5vkuxBmWNDo), [code](https://www.arduino.cc/en/Tutorial/Blink)]
+    * Blink - blink an LED [[video](https://www.youtube.com/watch?v=5vkuxBmWNDo), [code](https://www.arduino.cc/en/Tutorial/Blink), [circuit diagram](Hardware_Week_1_Th/LED_Diagram_bb.jpg)]
     * Morse code introduction - how to do the morse code assignment. [[video](https://youtu.be/18gWlNBlRoQ)]
 * Analog Out (Pulse Width Modulation) - [notes](Hardware_Week_2_T)
     * Tate's Fading tutorial - fade an LED [[video](https://www.youtube.com/watch?v=vd93XYizHJ8), [code](https://www.arduino.cc/en/Tutorial/Fading)]
