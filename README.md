@@ -7,7 +7,7 @@ Examples for Programming Digital Media class at Louisiana State University, Spri
 - Zoom
   - We will be using zoom to meet during our normal class time 
   - Please email to schedule a personal meeting if you need it
-- Ask for help on the [Discord](https://discord.gg/jzG8rS)
+- Ask for help on the [Discord](https://discord.gg/rByvFeP)
   -  you can post a question about anything related to the class and one of your classmate or I will answer it. 
   
 
